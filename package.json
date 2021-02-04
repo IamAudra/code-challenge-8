@@ -1,0 +1,18 @@
+{
+  "name": "cc-8",
+  "version": "1.0.0",
+  "description": "Code challenge to show understanding of node",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code",
+    "challenge",
+    "8",
+    "workshop"
+  ],
+  "author": "IamAudra",
+  "license": "ISC"
+}
