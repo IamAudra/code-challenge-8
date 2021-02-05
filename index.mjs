@@ -1,20 +1,12 @@
 import { data }  from "./data.mjs";
 
-const { name } = data
+//const {hobbies:{movies } = data,
 
-const { location } = data
-
-const {education} = data
-
-const {hobbies} = data
-
-const {baking} = data
-
-const { movies} = data
-
-console.log(name)
-console.log(education)
-console.log(location);
-console.log(hobbies);
-console.log(baking);
+const {name, location:{city, state}} = data;
+const { hobbies:{books}, hobbies:{movies}} =  data;
+console.log(books);
 console.log(movies);
+console.log(`Hello I am: ${name.fName} ${name.lName} from ${city} , ${state}.`);
+console.log(`One of my favorite books is ${books}`);
+console.log(`A favorite movie is called ${movies}`);
+console.log(`I have eclectic taste.`);

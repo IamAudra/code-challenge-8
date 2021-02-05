@@ -2,7 +2,7 @@ export const data = {
 
     name: {
         fName: "Audra",
-        lName: "J"
+        lName: "James"
     },
 
     location: {
@@ -29,29 +29,11 @@ export const data = {
     },
     
     hobbies: {
-        reading: {
-            book1: "Holy Bible",
-                author: "",
-            book2: "Persuasion",
-                author: "Austen, Jane",
-            book3: "A Raisin in the Sun",
-                author: "Hansberry, Lorraine",
+        books: "Holy Bible",  "Persuasion": "Raisin in the Sun",
+        movies: "Aliens", "Pride and Prejudice": "The Great Doctor",
 
-        baking: {
-                book1: "Cakes",
-                book2: "Cookies",
-                book3: "Savory Foods"
-            },
-
-        movies: {
-                movie1:"Aliens",
-                movie2: "Pride and Prejudice (1992)",
-                movie3: "The Great Doctor",
-                movie4: "A Woman Called Moses",
-
-        }    
-    },
-},
-}
-
+    }
+}   
+        
+    
 

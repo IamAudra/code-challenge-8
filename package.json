@@ -14,5 +14,8 @@
     "workshop"
   ],
   "author": "IamAudra",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "publish": "^0.6.0"
+  }
 }
