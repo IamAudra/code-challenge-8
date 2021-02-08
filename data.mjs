@@ -1,13 +1,13 @@
 export const data = {
 
     name: {
-        fName: "Audra",
-        lName: "James"
+        Fname: "Audra James",
     },
 
     location: {
         city: "Boston",
-        state: "MA"
+        state: "MA",
+        email:  "audraelizabethjames@gmail.com",
     },
 
     education: {
@@ -15,22 +15,21 @@ export const data = {
             second: "Harvard University, B.A.",
         },
 
-        certificates: {
-            PhoenixFamilies: {
-                first: "HIPAA",
-                second: "Emergency Management",
-                third: "Trauma-Informed Care",
-            },
-
-                     ulemMsimboProgram: {
-                 first:"MSIMBO Coding Bootcamp",
-            
+        Skills: {
+            Languages: "JavaScript, CSS, HTML, REACT, Responsive Design, Express, Node.js, ",
+            Other: "Github, Jira, Zenhub, JSitor, CodePen,"
         },
+
+     
+    Summary: {
+
     },
-    
-    hobbies: {
-        books: "Holy Bible",  "Persuasion": "Raisin in the Sun",
-        movies: "Aliens", "Pride and Prejudice": "The Great Doctor",
+
+    WorkHistory: 
+    { wk1: "Designed job-tracking website, using APIs",
+    wk2: "Co-team lead of project to redesign MSIMBO mainpage",
+    wk3: "Wrote mock-up of AirBNB mainpage",
+
 
     }
 }   
