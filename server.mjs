@@ -4,22 +4,21 @@ import {data} from './data.mjs'
 
 const app = express ()
 
-app.get('/hello', (req, res) => {
-   res.send('hello')
-})
+const PORT = process.env.PORT || 5000
+
 
 app.get('/', (req,res) => {
 
-    res.send('Please use npx-res-file to call my resume')
+    res.send(`Welcome to my resume. Please run command : [npx cc-8] to access my resume. Please visit my /bio endpoint`)
 })
 
-app.get('res-file', (req, res) => res.send(data))
-    
+app.get('/cc-8', (req, res) => res.send(data))
 
-//app.get()
-//app.post()
+// app.get('/hello', (req, res) => {
+//     res.send('hello')
+//  })
 
 
-app.listen('3333', () => {
-    console.log('test two')
+app.listen(PORT, () => {
+    console.log(`Hello and thank you for visiting my resume on ${PORT}`)
 })

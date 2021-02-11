@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "8dc25991-6f94-48d3-bcb8-7adb2a520d2a",
+		"name": "Localhost",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "FIrst API request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3333/res-file",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"res-file"
+					]
+				},
+				"description": "CC9 test"
+			},
+			"response": []
+		}
+	]
+}
