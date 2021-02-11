@@ -1,15 +1,20 @@
 {
   "name": "cc-8",
-  "version": "1.2.0",
+  "version": "2.1.1",
   "description": "Code challenge to show understanding of node",
   "main": "index.mjs",
-  "bin":{
+  "bin": {
     "res-file": "index.mjs"
   },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/IamAudra/code-challenge-8.git"
+      },
   "keywords": [
     "code",
     "challenge",
@@ -18,7 +23,16 @@
   ],
   "author": "IamAudra",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamAudra/code-challenge-8/issues"
+    },
+    "homepage": "https://github.com/IamAudra/code-challenge-8/#readme",
   "dependencies": {
-    "publish": "^0.6.0"
-  }
+    "custom-env": "^2.0.1",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.14.10"
+    }
 }
