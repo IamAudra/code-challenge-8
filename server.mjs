@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000
 
 app.get('/', (req,res) => {
 
-    res.send(`Welcome to my resume. Please run command : [npx cc-8] to access my resume. Please visit my /bio endpoint`)
+    res.send(`Welcome to my resume. Please run command : [npx cc-8] to access my resume. Please visit my /bio endpoint.`)
 })
 
 app.get('/cc-8', (req, res) => res.send(data))
