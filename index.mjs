@@ -2,30 +2,51 @@
 
 import { data }  from "./data.mjs";
 
-const {data} = data
-console.log (data)
+//const {data} = data
+//console.log (data)
 
+//console.log(data)
 
-//const {hobbies:{movies } = data,
+const { demographics:{name, label, phone,}} = data
+const {location:{postalCode, city, countryCode, region}} = data
+const {employment:{company, position, website, startDate, endDate, Wsummary, Wsummary2, highlights}} = data
+const {educationA:{institutionA, area, studyTypeA,startDateA}} = data
+const {educationB:{institutionB, studyTypeB, startDateB, EdendDateB}} = data
+const {skills:{languages}} = data
 
-//const {name:{fName, lName}} = data;
-// const {name: {Fname}} = data;
-// const {location:{city, state}} = data;
-// const {location: {email}} = data;
-// console.log(`Name: ${Fname}`);
-// console.log(`Address: $ {city, state}`)
-// console.log (`Email:${email}`)
-// const {education:{first, second}}= data;
-// console.log(`Email:`)
-// console.log(first)
-// console.log(second)
-// const {Skills:{ Languages, Other} } = data;
-// console.log (`Languages: ${Languages}`)
-// console.log(`Other: ${Other}`)
-// const {WorkHistory:{wk1, wk2,wk3}} = data;
-// console.log(`WORK HISTORY`)
-//console.log (wk1)
-//console.log(wk2)
-//console.log(wk3)
+//console.log (name)
+//console.log(label)
+console.log(`Resume for ${name}`)
 
+console.log(name)
+console.log(label)
+console.log(phone)
+console.log(postalCode)
+console.log(city)
+console.log(countryCode)
+console.log(region)
+//console.log(summary)
+//console.log(location)
+console.log('\n')
 
+console.log(company)
+    console.log(position)
+    console.log(website)
+    console.log(`Dates of employment: ${startDate} - ${endDate}`)
+    console.log('\n')
+    console.log(`WORK SUMMARY`)
+    console.log(`I ${Wsummary}. As a Housing Manager, I ${Wsummary2}`)
+    console.log('\n')
+    console.log(highlights)
+console.log('\n')
+console.log(`EDUCATION`)
+    console.log(institutionA)
+    console.log(studyTypeA),
+    console.log(`Start date: ${startDateA}`)
+console.log('\n')
+    console.log(institutionB)
+    console.log(`Degree earned ${studyTypeB}`)
+    console.log(`${startDateB} to ${EdendDateB}`)
+console.log('\n')
+console.log (`SKILLS`)
+    console.log(`Languages: ${languages}`)

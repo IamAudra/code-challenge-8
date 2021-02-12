@@ -1,6 +1,6 @@
 {
   "name": "cc-8",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Code challenge to show understanding of node",
   "main": "index.mjs",
   "bin": {

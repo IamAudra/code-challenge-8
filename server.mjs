@@ -22,3 +22,6 @@ app.get('/cc-8', (req, res) => res.send(data))
 app.listen(PORT, () => {
     console.log(`Hello and thank you for visiting my resume on ${PORT}`)
 })
+
+//console.log(data)
+
